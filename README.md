@@ -1,0 +1,1 @@
+This is probably not the best approach but basically it compares the first two values, stores the higher in the first place, then moves on to the next to values and so on. In order to fully sort it makes the pass several times.
