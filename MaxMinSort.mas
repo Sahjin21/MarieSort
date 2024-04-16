@@ -1,0 +1,106 @@
+ORG 100
+Load Num1
+Store Temp
+Load Num2
+Subt Num1
+Skipcond 800
+Jump Sort
+Load Num1
+Store Temp
+Load Num2
+Store Num1
+Load Temp
+Store Num2
+Sort, Load Num3
+Subt Num2
+Skipcond 800
+Jump Sort2
+Load Num2
+Store Temp
+Load Num3
+Store Num2
+Load Temp
+Store Num3
+Sort2, Load Num4
+Subt Num3
+Skipcond 800
+Jump Sort3
+Load Num3
+Store Temp
+Load Num4
+Store Num3
+Load Temp
+Store Num4
+Sort3, Load Num5
+Subt Num4
+Skipcond 800
+Jump Sort4
+Load Num4
+Store Temp
+Load Num5
+Store Num4
+Load Temp
+Store Num5
+Sort4, Load Num6
+Subt Num5
+Skipcond 800
+Jump Sort5
+Load Num5
+Store Temp
+Load Num6
+Store Num5
+Load Temp
+Store Num6
+Sort5, Load Num7
+Subt Num6
+Skipcond 800
+Jump Sort6
+Load Num6
+Store Temp
+Load Num7
+Store Num6
+Load Temp
+Store Num7
+Sort6, Load Num8
+Subt Num7
+Skipcond 800
+Jump Sort7
+Load Num7
+Store Temp
+Load Num8
+Store Num7
+Load Temp
+Store Num8
+Sort7, Load Num9
+Subt Num8
+Skipcond 800
+Jump Sort8
+Load Num8
+Store Temp
+Load Num9
+Store Num8
+Load Temp
+Store Num9
+Sort8, Load Num10
+Subt Num9
+Skipcond 800
+Jump Sort9
+Load Num9
+Store Temp
+Load Num10
+Store Num9
+Load Temp
+Store Num10
+Sort9, Halt
+
+Num1, HEX 95
+Num2, HEX 85
+Num3, HEX 75
+Num4, HEX 65
+Num5, HEX 55
+Num6, HEX 45
+Num7, HEX 35
+Num8, HEX 25
+Num9, HEX 15
+Num10, HEX 5
+Temp, HEX 0
